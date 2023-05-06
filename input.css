@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* All the tailwind stuff we'll get from here and we can also add custom css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-color {
+  background-image: linear-gradient(
+    to right,
+    #fff 0,
+    #fff 30%,
+    #f3e8ff 0,
+    #f3e8ff
+  );
+}
+
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-info h6 {
+  color: #c084fc;
+}
+.contact-info h5 span {
+  color: #c084fc;
+}
+.nav-color .logo {
+  color: #9333ea;
+}
+.home .intro {
+  color: #9333ea;
+}
+.home h1 span {
+  color: #9333ea;
+}
+#home span {
+  color: #9333ea;
+}
+#home .cool {
+  color: #9333ea;
+}
+#home .grid {
+  color: #9333ea;
+}
+.boxes h4 {
+  color: #9333ea;
+}
+#experience {
+  background-color: #f3e8ff;
+}
+#work h3 {
+  color: #9333ea;
+}
+
+.nav-color a:hover {
+  text-decoration-color: #9333ea;
+}
+
+@media (max-width: 1280px) {
+  .heading {
+    font-size: 45px;
+  }
+  .readme {
+    height: 270px;
+    width: 270px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1068px) {
+  #home {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 30px 100px;
+  }
+  #home img {
+    margin-left: 0px;
+  }
+  #work {
+    padding: 60px 100px;
+  }
+  .contact-info {
+    padding: 0px 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  #experience {
+    padding: 120px 100px;
+  }
+}
+
+@media (max-width: 808px) {
+  #contact h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .overview {
+    width: 1100px;
+  }
+  #experience h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .boxes h3 {
+    font-size: 16px;
+  }
+  .boxes h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1223px) {
+  #experience {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .overview {
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .boxes {
+    align-items: center;
+  }
+}
+
+@media (max-width: 634px) {
+  .boxes h3 {
+    font-size: 14px;
+  }
+  .boxes h4 {
+    font-size: 13px;
+  }
+  .boxes h6 {
+    font-size: 13px;
+  }
+  .boxes img {
+    height: 80px;
+    width: 80px;
+  }
+  #experience h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #experience h5 {
+    font-size: 15px;
+  }
+  #home h1 {
+    font-size: 32px;
+  }
+  #home h5 {
+    font-size: 13px;
+  }
+  #work h5 {
+    font-size: 13px;
+  }
+  .home h5 {
+    font-size: 13px;
+    margin-bottom: 21px;
+  }
+  .heading {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .contact-info h5 {
+    font-size: 13px;
+  }
+  .contact-info h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .contact-info h6 {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 550px) {
+  #home {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #experience {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #work {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .contact-info {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .home {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
