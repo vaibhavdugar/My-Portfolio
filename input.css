@@ -90,9 +90,6 @@ html {
     padding-top: 40px;
     padding-bottom: 20px;
   }
-  #experience {
-    padding: 120px 100px;
-  }
 }
 
 @media (max-width: 808px) {
@@ -117,6 +114,27 @@ html {
   }
 }
 
+.boxes div img {
+  height: 70px;
+  width: 70px;
+  margin-right: 50px;
+}
+
+@media (max-width: 870px) {
+  #experience {
+    padding: 120px 20px;
+  }
+  .boxes > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 50px;
+    margin-left: 50px;
+  }
+  .boxes div img {
+    margin-right: 0px;
+  }
+}
+
 @media (max-width: 1223px) {
   #experience {
     flex-wrap: wrap;
@@ -125,6 +143,7 @@ html {
   .overview {
     margin-bottom: 40px;
     align-items: center;
+    text-align: center;
   }
   .boxes {
     align-items: center;
@@ -183,10 +202,6 @@ html {
 
 @media (max-width: 550px) {
   #home {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  #experience {
     padding-left: 50px;
     padding-right: 50px;
   }
